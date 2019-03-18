@@ -6,7 +6,9 @@
 html,
 body {
   height: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+ 
 }
 a {
   text-decoration: none;
@@ -14,6 +16,25 @@ a {
 p {
   margin: 0.75rem 0;
 }
+
+.btn{
+  border-radius: 0.125rem;
+  box-shadow: 0.5px 0.5px 1px #888888;
+}
+
+#game-carousel{
+
+  position: absolute;
+  z-index: 700;
+  right: -400px;
+  top: 100px;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  
+}
+
+
 /* Navbar */
 #navbar {
   display: flex;
@@ -38,8 +59,8 @@ p {
 }
 
 #navbar ul li a:hover {
-  background: rgb(16, 135, 216);
-  border-radius: 5px;
+  color: rgb(16, 135, 216);
+  
 }
 
 /* utility classes */
@@ -50,17 +71,14 @@ p {
   overflow: hidden;
 }
 
-.btn {
-  background-color: rgb(16, 135, 216);
-  border-radius: 5px solid white;
-  border: 2px solid white;
-  color: white;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font: 16px;
+
+.c {
+  background-image: url("../image/background.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% 600px;
 }
+
 .btn-type {
   margin-right: 8px;
   margin-top: 40px;
@@ -183,4 +201,14 @@ textarea {
 .snap-chat {
   color: red;
   background-color: white;
+}
+
+/* 3D Hover */
+.transition-3d-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.transition-3d-hover:hover, .transition-3d-hover:focus {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
 }

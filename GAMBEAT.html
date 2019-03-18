@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>GAMEBEAT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
     <link
       rel="stylesheet"
       type="text/css"
@@ -30,13 +30,15 @@
     />
     <link rel="stylesheet" type="text/css" href="style/GAMBEAT.css" />
     <script src="script/min3.3.1.jQuery.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/animate.css" />
     <script src="script/GAMBEAT.js"></script>
   </head>
   <body id="home">
     <div>
+      <div class="container">
       <!-- navbar -->
       <nav id="navbar">
-        <h1>Gam<span class="beat">beat</span></h1>
+        <h3>Gam<span class="beat">beat</span></h3>
         <ul>
           <li><a href="#home">HOME</a></li>
           <li><a href="#what we offer">WHAT WE OFFER</a></li>
@@ -44,21 +46,82 @@
           <li><a href="#contact us">CONTACT US</a></li>
         </ul>
       </nav>
+    </div>
+      <div class="c pt-5 pb-5" >
       <!-- header -->
-      <header id="welcome-to-gambeat">
+      <header id="welcome-to-gambeat" class="mb-5" >
         <div class="container">
           <div class="heading">
             <h1>Welcome To</h1>
             <h1>Gam<span class="beat">beat</span></h1>
           </div>
-          <br />The most addictive card game on earth <br />
-          <br />join a tribe and battle with millions of people online<br />
-          <br />You can become a king, a legend, a hero<br />
-          <br />Your story starts now <br />
-          <button class="btn btn-type">Login</button>
-          <button class="btn btn-type">Sign Up</button>
+         
+
+          <div class="row">
+              <div class="col-sm-6">
+                  <p class="text-sm-left" style="line-height: 250%">
+                      The most addictive card game on earth
+                      <br/>join a tribe and battle with millions of people online
+                      <br />You can become a king, a legend, a hero
+                      <br />Your story starts now 
+                  </p>
+              </div>
+              <div class="col-sm-6" style="position: absolute">
+                  <img id="game-carousel" class="animated infinite bounce delay-2s" src="image/games/angry-bird.png" width="350px" alt="games">
+              </div>
+              
+          </div>
+          <button type="button" class="btn btn-md btn-primary transition-3d-hover">Login</button>
+          <button type="button" class="btn btn-md btn-outline-primary transition-3d-hover">Sign up</button>
+          
         </div>
       </header>
+    </div>
+
+   
+
+
+      <!-- what we offer -->
+  
+
+      <section class="container mt-5">
+        <h1 class="mb-5">What We Offer</h1>
+        <div class="card-columns">
+          <div class="card bg-white shadow-sm">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the first card</p>
+            </div>
+          </div>
+          <div class="card bg-white shadow-sm">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the second card</p>
+            </div>
+          </div>
+          <div class="card bg-white shadow-sm">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the third card</p>
+            </div>
+          </div>
+          <div class="card bg-white shadow-sm">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the fourth card</p>
+            </div>
+          </div> 
+          <div class="card bg-white shadow-sm">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the fifth card</p>
+            </div>
+          </div>
+          <div class="card bg-white shadow-sm">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the sixth card</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+  
+
       <!-- contact us -->
 
       <section id="contact-us" class="aliceblue">
@@ -154,5 +217,15 @@
 
       </footer>
     </div>
+
+
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>
