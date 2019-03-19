@@ -67,7 +67,7 @@ p {
   padding-right: 10%;
 }
 
-#navbar ul {
+#navbar > ul {
   display: flex;
   align-items: center;
   list-style: none;
@@ -235,12 +235,15 @@ textarea {
 }
 
 
-#selectedCountry:hover{
+#country-dropdown:hover .c-dropdown{
   opacity: 1;
   visibility: visible;
 }​
 
-
+.c-dropdown:hover li{
+  opacity: 0;
+  visibility: visible;
+}​
 
 .c-dropdown--reversed {
   text-align: right;

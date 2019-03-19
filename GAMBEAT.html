@@ -31,7 +31,7 @@
         <li><a href="#what we offer">WHAT WE OFFER</a></li>
         <li><a href="#how to play">HOW TO PLAY</a></li>
         <li><a href="#contact us">CONTACT US</a></li>
-        <a title="Country" href="#" class="nav-link has-submenu" id="sm-15530205559473606-5" aria-haspopup="true"
+        <a id="country-dropdown" title="Country" href="#" class="nav-link has-submenu" id="sm-15530205559473606-5" aria-haspopup="true"
           aria-controls="sm-15530205559473606-6" aria-expanded="false">
           <!-- Country dropdown -->
           <span>
@@ -40,10 +40,28 @@
           </span>
           <span class="sub-arrow"></span>
           <div class="c-dropdown c-dropdown--flip c-dropdown--reversed c-dropdown--sm">
-            <ul class="c-nav-menu">
+            <ul class="c-nav-menu" style="list-style: none; text-align:left">
+                <li class="c-nav-menu__item" >
+                    <span class="u-flag-icon u-flag-icon--gh">
+                      <img id="selectedCountry" width="30" src="image/flags/france.svg"
+                      alt="Selected Country">
+                    </span>
+                    <span>French</span>
+                  </li>
               <li class="c-nav-menu__item">
-                <span class="u-flag-icon u-flag-icon--gh"></span><span>Ghana</span>
+                <span class="u-flag-icon u-flag-icon--gh">
+                  <img id="selectedCountry" width="30" src="image/flags/spain.svg"
+                  alt="Selected Country">
+                </span>
+                <span>Spanish</span>
               </li>
+              <li class="c-nav-menu__item">
+                  <span class="u-flag-icon u-flag-icon--gh">
+                    <img id="selectedCountry" width="30" src="image/flags/china.svg"
+                    alt="Selected Country">
+                  </span>
+                  <span>Chinese</span>
+                </li>
             </ul>
           </div>
 
@@ -72,7 +90,7 @@
             <div class="col-sm-6" style="position: absolute">
               <img id="game-carousel" class="animated infinite bounce delay-2s" src="image/games/angry-bird.png"
                 width="350px" alt="games">
-              <span class="sub-arrow"></span>
+              
             </div>
 
           </div>
