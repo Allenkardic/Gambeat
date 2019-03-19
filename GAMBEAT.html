@@ -1,231 +1,237 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>GAMEBEAT</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>GAMEBEAT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen and (max-width: 768px)"
-      href="style/GAMBEAT-mobile.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen and (min-width: 1100px)"
-      href="style/GAMBEAT-widescreen.css"
-    />
-    <link rel="stylesheet" type="text/css" href="style/GAMBEAT.css" />
-    <script src="script/min3.3.1.jQuery.js"></script>
-    <link rel="stylesheet" type="text/css" href="style/animate.css" />
-    <script src="script/GAMBEAT.js"></script>
-  </head>
-  <body id="home">
-    <div>
-      <div class="container">
-      <!-- navbar -->
-      <nav id="navbar">
-        <h3>Gam<span class="beat">beat</span></h3>
-        <ul>
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#what we offer">WHAT WE OFFER</a></li>
-          <li><a href="#how to play">HOW TO PLAY</a></li>
-          <li><a href="#contact us">CONTACT US</a></li>
-        </ul>
-      </nav>
-    </div>
-      <div class="c pt-5 pb-5" >
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px)" href="style/GAMBEAT-mobile.css" />
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 1100px)" href="style/GAMBEAT-widescreen.css" />
+  <link rel="stylesheet" type="text/css" href="style/GAMBEAT.css" />
+  <script src="script/min3.3.1.jQuery.js"></script>
+  <link rel="stylesheet" type="text/css" href="style/animate.css" />
+  <script src="script/GAMBEAT.js"></script>
+</head>
+
+<body id="home">
+  <div>
+    <!-- navbar -->
+    <nav id="navbar" class="pl-5">
+      <h3>Gam<span class="beat">beat</span></h3>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#what we offer">WHAT WE OFFER</a></li>
+        <li><a href="#how to play">HOW TO PLAY</a></li>
+        <li><a href="#contact us">CONTACT US</a></li>
+        <a title="Country" href="#" class="nav-link has-submenu" id="sm-15530205559473606-5" aria-haspopup="true"
+          aria-controls="sm-15530205559473606-6" aria-expanded="false">
+          <!-- Country dropdown -->
+          <span>
+            <span><img id="selectedCountry" width="30" src="image/flags/united-states.svg"
+                alt="Selected Country"></span>
+          </span>
+          <span class="sub-arrow"></span>
+          <div class="c-dropdown c-dropdown--flip c-dropdown--reversed c-dropdown--sm">
+            <ul class="c-nav-menu">
+              <li class="c-nav-menu__item">
+                <span class="u-flag-icon u-flag-icon--gh"></span><span>Ghana</span>
+              </li>
+            </ul>
+          </div>
+
+        </a>
+      </ul>
+    </nav>
+    <div class="c pt-5 pb-5">
       <!-- header -->
-      <header id="welcome-to-gambeat" class="mb-5" >
+      <header id="welcome-to-gambeat" class="mb-5">
         <div class="container">
           <div class="heading">
             <h1>Welcome To</h1>
             <h1>Gam<span class="beat">beat</span></h1>
           </div>
-         
+
 
           <div class="row">
-              <div class="col-sm-6">
-                  <p class="text-sm-left" style="line-height: 250%">
-                      The most addictive card game on earth
-                      <br/>join a tribe and battle with millions of people online
-                      <br />You can become a king, a legend, a hero
-                      <br />Your story starts now 
-                  </p>
-              </div>
-              <div class="col-sm-6" style="position: absolute">
-                  <img id="game-carousel" class="animated infinite bounce delay-2s" src="image/games/angry-bird.png" width="350px" alt="games">
-              </div>
-              
+            <div class="col-sm-6">
+              <p class="text-sm-left" style="line-height: 250%">
+                The most addictive card game on earth
+                <br />join a tribe and battle with millions of people online
+                <br />You can become a king, a legend, a hero
+                <br />Your story starts now
+              </p>
+            </div>
+            <div class="col-sm-6" style="position: absolute">
+              <img id="game-carousel" class="animated infinite bounce delay-2s" src="image/games/angry-bird.png"
+                width="350px" alt="games">
+              <span class="sub-arrow"></span>
+            </div>
+
           </div>
           <button type="button" class="btn btn-md btn-primary transition-3d-hover">Login</button>
           <button type="button" class="btn btn-md btn-outline-primary transition-3d-hover">Sign up</button>
-          
+
         </div>
       </header>
     </div>
 
-   
 
 
-      <!-- what we offer -->
-  
 
-      <section class="container mt-5">
-        <h1 class="mb-5">What We Offer</h1>
-        <div class="card-columns">
-          <div class="card bg-white shadow-sm">
-            <div class="card-body text-center">
-              <p class="card-text">Some text inside the first card</p>
-            </div>
-          </div>
-          <div class="card bg-white shadow-sm">
-            <div class="card-body text-center">
-              <p class="card-text">Some text inside the second card</p>
-            </div>
-          </div>
-          <div class="card bg-white shadow-sm">
-            <div class="card-body text-center">
-              <p class="card-text">Some text inside the third card</p>
-            </div>
-          </div>
-          <div class="card bg-white shadow-sm">
-            <div class="card-body text-center">
-              <p class="card-text">Some text inside the fourth card</p>
-            </div>
-          </div> 
-          <div class="card bg-white shadow-sm">
-            <div class="card-body text-center">
-              <p class="card-text">Some text inside the fifth card</p>
-            </div>
-          </div>
-          <div class="card bg-white shadow-sm">
-            <div class="card-body text-center">
-              <p class="card-text">Some text inside the sixth card</p>
-            </div>
+    <!-- what we offer -->
+
+
+    <section class="container mt-5">
+      <h1 class="mb-5">What We Offer</h1>
+      <div class="card-columns">
+        <div class="card bg-white shadow-sm">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the first card</p>
           </div>
         </div>
-      </section>
-    
-  
-
-      <!-- contact us -->
-
-      <section id="contact-us" class="aliceblue">
-        <div class="container">
-          <div class="heading">
-            <h1>Contact <span class="beat">Us</span></h1>
+        <div class="card bg-white shadow-sm">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the second card</p>
           </div>
-
-          <p>
-            We love to chat -we did make messenger app aft all! Whether you need
-            help with the app.
-          </p>
-          <p>
-            Have a question about what it does, or need any other information
-          </p>
-          <p>
-            Please fill out the form bellow. You can also phone or e-mail us
-          </p>
-          <p>
-            Customer service representatives are available 24 hours a day to
-            respond quickly.
-          </p>
-          <div id="four-center">
-            <div class="four-center_inner">
-              <i class="four-items four-center_icon fas fa-map-marker-alt"></i>
-              <span>Road 40, H36, VGC, Lagos, Nigeria</span>
-            </div>
-            <div class="four-center_inner">
-              <i class="four-items four-center_icon fas fa-phone-square"></i>
-              <span>+2348098516969</span>
-            </div>
-            <div class="four-center_inner">
-              <i class="four-items four-center_icon fab fa-skype"></i> <span>Gambeat</span>
-            </div>
-            <div class="four-center_inner">
-              <i class="four-items four-center_icon fas fa-envelope"></i>
-              <span>info@Gambeat.com</span>
-            </div>
+        </div>
+        <div class="card bg-white shadow-sm">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the third card</p>
           </div>
-          <div id="form_container">
-            <div class="items">
-              <form action="">
-                <div class="form-group">
-                    <label for="Name">
-                        <input type="text" name="Name" id="Name" placeholder="Name" />
-                      </label>
-                </div>        
-                <div class="form-group">
-                  <label for="Subject">
-                    <input type="text" name="Subject" id="Subject" placeholder="Subject"/>
-                  </label>
-                </div>               
-                <div class="form-group">
-                  <label for="email">
-                    <input type="email" name="email" id="email" placeholder="Email"/><br>
-                  </label>
-                </div>
-                <div class="form-group">
-                  <label for="Feedback">
-                    <select name="Feedback" id="Feedback" class="option-btn">
-                      <option value="Good" class="option-btn">Good</option>
-                      <option value="Good" class="option-btn">Good</option>
-                      <option value="Good" class="option-btn">Good</option>
-                    </select>
-                   </label>
-                  </div>
-                </div>
-            <div class="items">
+        </div>
+        <div class="card bg-white shadow-sm">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the fourth card</p>
+          </div>
+        </div>
+        <div class="card bg-white shadow-sm">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the fifth card</p>
+          </div>
+        </div>
+        <div class="card bg-white shadow-sm">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the sixth card</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- contact us -->
+
+    <section id="contact-us" class="aliceblue">
+      <div class="container">
+        <div class="heading">
+          <h1>Contact <span class="beat">Us</span></h1>
+        </div>
+
+        <p>
+          We love to chat -we did make messenger app aft all! Whether you need
+          help with the app.
+        </p>
+        <p>
+          Have a question about what it does, or need any other information
+        </p>
+        <p>
+          Please fill out the form bellow. You can also phone or e-mail us
+        </p>
+        <p>
+          Customer service representatives are available 24 hours a day to
+          respond quickly.
+        </p>
+        <div id="four-center">
+          <div class="four-center_inner">
+            <i class="four-items four-center_icon fas fa-map-marker-alt"></i>
+            <span>Road 40, H36, VGC, Lagos, Nigeria</span>
+          </div>
+          <div class="four-center_inner">
+            <i class="four-items four-center_icon fas fa-phone-square"></i>
+            <span>+2348098516969</span>
+          </div>
+          <div class="four-center_inner">
+            <i class="four-items four-center_icon fab fa-skype"></i> <span>Gambeat</span>
+          </div>
+          <div class="four-center_inner">
+            <i class="four-items four-center_icon fas fa-envelope"></i>
+            <span>info@Gambeat.com</span>
+          </div>
+        </div>
+        <div id="form_container">
+          <div class="items">
+            <form action="">
               <div class="form-group">
-                <textarea name="Message" id="" cols="60" rows="20" placeholder="Message"></textarea>
+                <label for="Name">
+                  <input type="text" name="Name" id="Name" placeholder="Name" />
+                </label>
               </div>
-                  <button type="submit" class="btn btn-type btn-form">Submit</button>
-              </form>
+              <div class="form-group">
+                <label for="Subject">
+                  <input type="text" name="Subject" id="Subject" placeholder="Subject" />
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="email">
+                  <input type="email" name="email" id="email" placeholder="Email" /><br>
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="Feedback">
+                  <select name="Feedback" id="Feedback" class="option-btn">
+                    <option value="Good" class="option-btn">Good</option>
+                    <option value="Good" class="option-btn">Good</option>
+                    <option value="Good" class="option-btn">Good</option>
+                  </select>
+                </label>
+              </div>
+          </div>
+          <div class="items">
+            <div class="form-group">
+              <textarea name="Message" id="" cols="60" rows="20" placeholder="Message"></textarea>
             </div>
+            <button type="submit" class="btn btn-type btn-form">Submit</button>
+            </form>
           </div>
         </div>
-      </section>
-      <footer id="end">
-        <div id="footer-container">
-          <div class="footer-items">
-              <i class="five-item facebook fab fa-facebook"></i>
-              <i class="five-item twitter fab fa-twitter-square"></i>
-              <i class="five-item google-plus fab fa-google-plus-square"></i>
-              <i class="five-item snap-chat fab fa-instagram"></i>
-          </div>
-          <div class="footer-items">
-            <div class="footer-right">
-                <i class="five-item-right far fa-copyright footer-right"></i>
-                <span class="five-item-right footer-right">2015 YourDomain | by DesignBootstrap</span>
-            </div>    
+      </div>
+    </section>
+    <footer id="end">
+      <div id="footer-container">
+        <div class="footer-items">
+          <i class="five-item facebook fab fa-facebook"></i>
+          <i class="five-item twitter fab fa-twitter-square"></i>
+          <i class="five-item google-plus fab fa-google-plus-square"></i>
+          <i class="five-item snap-chat fab fa-instagram"></i>
+        </div>
+        <div class="footer-items">
+          <div class="footer-right">
+            <i class="five-item-right far fa-copyright footer-right"></i>
+            <span class="five-item-right footer-right">2015 YourDomain | by DesignBootstrap</span>
           </div>
         </div>
+      </div>
 
-      </footer>
-    </div>
+    </footer>
+  </div>
 
 
-    <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  </body>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
 </html>
